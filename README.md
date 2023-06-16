@@ -280,7 +280,7 @@ npm install lint-staged --save-dev
 
 ```json
 "scripts": {
-  ....other scripts
+  //....other scripts
   "lint-prettier": "yarn lint:check && yarn prettier:check"
 },
 "lint-staged": {
