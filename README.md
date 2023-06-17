@@ -8,7 +8,7 @@ Setting up an Express backend with ESLint, Prettier, Husky, and lint-staged is c
 npm init
 ```
 
-### 2. Install dev dependencies:
+### 2. Install Typescript:
 
 ```typescript
 yarn add -D typescript
