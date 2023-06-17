@@ -246,8 +246,8 @@ npm install prettier --save-dev
 ### 9. Add the following in package.json scripts:
 
 ```json
-"lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-"lint:fix": "eslint . --fix"
+"prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+"prettier:fix": "prettier --write .",
 ```
 
 ### 10. Update settings.json in VS Code:
